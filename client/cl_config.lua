@@ -5,45 +5,52 @@ Config.UseTarget = false -- Use qb-target interactions (don't change this, go to
 
 Config.BossMenus = {
     ['police'] = {
-        vector3(461.45, -986.2, 30.73),
+        vector3(459.79, -986.86, 30.73),
     },
     ['ambulance'] = {
-        vector3(335.46, -594.52, 43.28),
+        vector3(334.6, -593.52, 43.28),
     },
-    ['realestate'] = {
-        vector3(-716.11, 261.21, 84.14),
+    ['rea'] = {
+        vector3(-125.32, -640.52, 168.82),
     },
     ['taxi'] = {
-        vector3(907.24, -150.19, 74.17),
+        vector3(895.67, -179.71, 74.7),
     },
     ['cardealer'] = {
-        vector3(-27.47, -1107.13, 27.26),
+        vector3(-28.71, -1109.11, 27.27),
     },
     ['mechanic'] = {
-        vector3(-339.53, -156.44, 44.59),
+        vector3(834.2, -828.56, 26.33),
+    },
+    ['vanilla'] = {
+        vector3(94.35, -1292.75, 29.26),
     },
 }
 
 Config.BossMenuZones = {
     ['police'] = {
-        { coords = vector3(461.45, -986.2, 30.73), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
+        { coords = vector3(459.79, -986.86, 30.73), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
     },
     ['ambulance'] = {
-        { coords = vector3(335.46, -594.52, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 },
+        { coords = vector3(334.6, -593.52, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 },
     },
-    ['realestate'] = {
-        { coords = vector3(-716.11, 261.21, 84.14), length = 0.6, width = 1.0, heading = 25.0, minZ = 83.943, maxZ = 84.74 },
+    ['rea'] = {
+        { coords = vector3(-125.32, -640.52, 168.82), length = 0.6, width = 1.0, heading = 25.0, minZ = 83.943, maxZ = 84.74 },
     },
     ['taxi'] = {
-        { coords = vector3(907.24, -150.19, 74.17), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
+        { coords = vector3(895.67, -179.71, 74.7), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
     },
     ['cardealer'] = {
-        { coords = vector3(-27.47, -1107.13, 27.27), length = 2.4, width = 1.05, heading = 340.0, minZ = 27.07, maxZ = 27.67 },
+        { coords = vector3(-28.71, -1109.11, 27.27), length = 2.4, width = 1.05, heading = 340.0, minZ = 27.07, maxZ = 27.67 },
     },
     ['mechanic'] = {
-        { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
+        { coords = vector3(834.2, -828.56, 26.33), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
+    },
+    ['vanilla'] = {
+        { coords = vector3(94.35, -1292.75, 29.26), length = 1.15, width = 2.6, heading = 184.55, minZ = 29.00, maxZ = 32.00 },
     },
 }
+
 
 Config.GangMenus = {
     ['lostmc'] = {
